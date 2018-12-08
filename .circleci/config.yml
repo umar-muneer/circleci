@@ -40,7 +40,7 @@ jobs:
       - run:
           name: launching service1
           command: |
-            sudo docker build -t service1 ~/repo/service1/.
-            sudo docker run -d -p 3000:3000 service1 node ~/repo/service1/index.js
+            docker build -t service1 ~/repo/service1/.
+            docker run -d -p 3000:3000 service1 node ~/repo/service1/index.js
             sleep 10
             curl http://localhost:3000
