@@ -31,4 +31,4 @@ jobs:
           command: |
             echo $GCLOUD_SERVICE_KEY | docker login -u _json_key --password-stdin https://gcr.io
             docker pull gcr.io/educative-dev-1/educative-dev:1
-            docker run educative-dev:1 gcloud --version
+            docker run gcr.io/educative-dev-1/educative-dev:1 gcloud --version
