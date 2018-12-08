@@ -1,1 +1,1 @@
-FROM node@10.0.0
+FROM node:10.0.0
