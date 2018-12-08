@@ -1,0 +1,22 @@
+{
+  "name": "circleci",
+  "version": "1.0.0",
+  "description": "test circle ci features here",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --exit test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umar-muneer/circleci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umar-muneer/circleci/issues"
+  },
+  "homepage": "https://github.com/umar-muneer/circleci#readme",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}
