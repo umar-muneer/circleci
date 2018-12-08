@@ -14,8 +14,8 @@ jobs:
       - setup_remote_docker
       - checkout
       - run
-          name: npm install
+          name: Install Dependencies
           command: npm install
       -run
-          name: npm test
+          name: Run Tests
           command: npm test
