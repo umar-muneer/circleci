@@ -23,3 +23,6 @@ jobs:
       - run:
           name: gcloud version
           command: gcloud --version
+      - run:
+          name: GCLOUD SERVICE KEY
+          command: echo $GCLOUD_SERVICE_KEY
