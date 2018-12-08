@@ -20,3 +20,6 @@ jobs:
           name: Run Tests
           command: |
             npm test
+      - run:
+          name: gcloud version
+          command: gcloud --version
